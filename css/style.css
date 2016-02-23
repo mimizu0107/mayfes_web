@@ -290,7 +290,8 @@ figure.maptotodai {margin-left: auto;
 
 .all-article    {width: 80%;
                 margin-right: auto; 
-                margin-left: auto;}
+                margin-left: auto;
+                overflow: hidden;}
 
 
 
