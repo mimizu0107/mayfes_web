@@ -224,7 +224,7 @@ figure.maptotodai {margin-left: auto;
 .left-article   {width: 74%;
                 float: left;
                 padding: 0px;
-                border: solid 1px;}
+                /*border: solid 1px;*/}
 
 .all-article    {width: 70%;
                 margin-right: auto; 
