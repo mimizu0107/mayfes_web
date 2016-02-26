@@ -276,6 +276,11 @@ a.push  {display: none;}
 /*スマホ用*/
 
 @media screen and ( max-width:879px ) {
+
+    .all-article    {width: 85%;}
+
+
+
     /*facebook*/
     .facebook {float: none;
                 clear:both;
