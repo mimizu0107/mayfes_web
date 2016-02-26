@@ -331,7 +331,7 @@ a.push  {display: none;}
 
 /* Logo */
 .site-logo {
-    float: left;
+    /*float: left;*/
     text-align: center;
     /*margin-left: -30px;
     margin-bottom: 15px;*/
@@ -340,7 +340,13 @@ a.push  {display: none;}
     margin-left: auto;
     margin-top: 10px;
     margin-bottom: 0px;
-    /*border: solid 1px;*/
+    /*border: solid 8px;*/
+}
+
+.site-logo img {
+    width:100%;
+    max-width:390px;
+    max-height: 80px;
 }
 
 /* Primary nav */
