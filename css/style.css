@@ -340,7 +340,7 @@ a.push  {display: none;}
     margin-left: auto;
     margin-top: 10px;
     margin-bottom: 0px;
-    /*border: solid 8px;*/
+    /*border: solid 1px;*/
 }
 
 .site-logo img {
@@ -351,7 +351,8 @@ a.push  {display: none;}
 
 /* Primary nav */
 .primary-nav {
-    margin-top: 0px;
+    /*margin-top: 0px;*/
+    margin-bottom: 0px;
     float: right;
     line-height: 50px;
     letter-spacing: 1px;
