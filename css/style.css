@@ -168,7 +168,7 @@ figure.maptotodai {margin-left: auto;
 .page-header > .inner {
     margin: auto;
     /*width: 960px;*/
-    /*width: 80%;*/
+    width: 80%;
 }
 
 .no-boxshadow .page-header {
@@ -238,12 +238,29 @@ figure.maptotodai {margin-left: auto;
                     /*border: solid 1px;*/}
 
 
+/*menu bar*/
+
+dl {margin: 0px;} 
+
+#acMenu dt{display: none;}
+#acMenu dd{display: none;}
+
+.inner_child {display: none;}
+
+li .toggle {display: none;
+            /*border:solid 1px;
+            background-color: rgb(255,0,0);*/}
+
+a.push  {display: none;}
+
+
 
 
 
 /*スマホ用*/
 
 @media screen and ( max-width:879px ) {
+    /*facebook*/
     .facebook {float: none;
                 clear:both;
                 margin-left: auto;
@@ -263,6 +280,156 @@ figure.maptotodai {margin-left: auto;
 
     .all-article {/*border: solid 5px;*/
                 overflow: hidden;}
+
+    /*sticky header*/
+
+    /* デフォルトのスタイル */
+.page-header {
+    background-color: rgba(255, 255, 255, 1.5);/*ヘッダーの色*/
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    /*min-width: 960px;*/
+    -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+            box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+    z-index: 2;
+}
+
+/* スティッキー状態のスタイル */
+.page-header.sticky {
+    position: fixed;
+    top: 0;
+}
+
+.page-header > .inner {
+    margin: auto;
+    /*width: 960px;*/
+    width: 80%;
+}
+
+.no-boxshadow .page-header {
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+/* Logo */
+.site-logo {
+    float: left;
+    margin-left: -30px;
+    margin-bottom: 15px;
+}
+
+/* Primary nav */
+.primary-nav {
+    margin-top: 0px;
+    float: right;
+    line-height: 100px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.primary-nav li {
+    float: left;
+}
+.primary-nav a {
+    color: inherit;
+    text-decoration: none; 
+    display: none;/*block->none*/
+    padding: 0 1.36em;
+}
+.primary-nav a:hover {
+    background-color: rgb(204, 204, 204);
+}
+
+.primary-nav .this-page {background-color: rgb(204, 204, 204);}
+
+/*menu bar*/
+
+dl {margin: 0px;} 
+
+#acMenu dt{
+    color: inherit;
+    text-decoration: none; 
+    display: block;
+    width: 150px;
+    margin: 0px;
+    background-color: rgb(204, 204, 204);
+    text-align:center;
+    /*display:block;
+    width:100px;
+    height:100px;
+    line-height:50px;
+    text-align:center;
+    border:#666 1px solid;
+    cursor:pointer;*/
+    }
+#acMenu dd{
+    color: inherit;
+    text-decoration: none; 
+    display: none;
+    text-align:center;
+    /*padding: 0 1.36em;*/
+    width: 150px;
+    margin: 0px;
+    background-color: rgb(204, 204, 204);
+    /*background:#f2f2f2;
+    width:200px;
+    height:50px;
+    line-height:50px;
+    text-align:center;
+    border:#666 1px solid;
+    display:none;*/
+    }
+
+
+.inner_child {
+    color: inherit;
+    text-decoration: none; 
+    display: none;
+    width: 150px;
+    height: 300px;
+    margin: 0px;
+    background-color: rgba(255, 0, 0, 0.5);
+    text-align:center;
+    /*float:left;*/
+    /*display:block;
+    width:100px;
+    height:100px;
+    line-height:50px;
+    text-align:center;
+    border:#666 1px solid;
+    cursor:pointer;*/
+    }
+
+.inner_child > li {background-color: rgba(0,255,0, 0.5);
+                    float: left;
+                    border: solid 1px;
+                    width: 150px;
+                    height: 100px;
+                    text-align:center;
+                    margin: 0px;}
+
+a .inner_child  {background-color: rgba(0,255,0, 0.5);
+                    float: left;
+                    border: solid 10px;
+                    width: 150px;
+                    height: 100px;
+                    text-align:center;
+                    margin: 0px;}
+
+
+li .toggle {color: inherit;
+            text-decoration: none; 
+            display: block;
+            width: 150px;
+            margin: 0px;
+            background-color: rgb(204, 204, 204);
+            text-align:center;}
+
+a.push    {/*border: solid 1px;*/
+            width:148px;
+            height: 100px;
+            text-align: center;
+            background-color: rgb(204,204,204);
+            display: block;}
 
 
 }

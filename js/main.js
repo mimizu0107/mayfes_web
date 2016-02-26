@@ -140,5 +140,17 @@ $(function () {
     });
 
 
+    /*Menu bar*/
+    $("#acMenu dt").on("click", function() {
+            $(this).next().slideToggle();
+        });
+
+
+    function demo01() {
+        $(this).next().slideToggle(300);
+    }
+ 
+    $(".toggle").click(demo01);
+
 
 });
