@@ -168,7 +168,7 @@ figure.maptotodai {margin-left: auto;
 .page-header > .inner {
     margin: auto;
     /*width: 960px;*/
-    width: 95%;
+    width: 80%;
 }
 
 .no-boxshadow .page-header {
@@ -258,9 +258,13 @@ a.push  {display: none;}
 
 
 
+@media screen and ( max-width:1050px ) {
+    .page-header > .inner {
+    margin: auto;
+    /*width: 960px;*/
+    width: 95%;}
 
-
-
+}
 
 
 
