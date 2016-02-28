@@ -60,7 +60,7 @@ figure.maptotodai {margin-left: auto;
     /*height: 600px;*/
     /*min-width: 960px;*/
     width: 100%;
-    height: 200px;
+    height: 600px;
     overflow: hidden;
     position: relative;
     margin: 0px;
@@ -281,6 +281,10 @@ a.push  {display: none;}
 
     .all-article    {width: 85%;}
 
+    /*slideshow*/
+
+    .slideshow {display: none;}
+
 
 
     /*facebook*/
@@ -320,7 +324,7 @@ a.push  {display: none;}
 
 /* スティッキー状態のスタイル */
 .page-header.sticky {
-    position: fixed;
+    position: absolute;/*mobileではついていかないようにした*/
     top: 0;
     width:100%;
 }
