@@ -206,6 +206,8 @@ figure.maptotodai {margin-left: auto;
 }
 .primary-nav a:hover {
     background-color: rgb(204, 204, 204);
+    text-decoration: none;
+    color: inherit;
 }
 
 .primary-nav .this-page {background-color: rgb(204, 204, 204);}
