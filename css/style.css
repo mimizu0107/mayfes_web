@@ -39,9 +39,18 @@ footer 	{width:70%;
 		margin-top: 20px;}
 
 ul { padding-left: 0; 
-    margin: 0;}
+    margin: 0;
+    overflow: hidden;}
 ul li { list-style-type: none; }
 img { vertical-align: middle; }
+
+
+li.kifu {float: left;
+        width: 8em;
+        padding: 3px;}
+
+p.clear {clear: left;
+        margin-top: 10px;}
 
 
 
