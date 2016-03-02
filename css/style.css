@@ -7,6 +7,7 @@ body 	{font-family: 'メイリオ',
         background-position: center center;
         background-attachment: fixed;
         background-size: cover;
+
         background-repeat: no-repeat;}
 
 h1 		{margin-top: 0 auto;}
@@ -273,6 +274,20 @@ a.push  {display: none;}
 
 
 @media screen and ( max-width:1050px ) {
+
+
+
+	body 	{font-family: 'メイリオ',
+		'Hiragino Kaku Gothic Pro',
+		sans-serif;
+		background-color: #edede3;
+		margin: 0;
+        background-image: url(../images/mobile.png);
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;}
+
     .page-header > .inner {
     margin: auto;
     /*width: 960px;*/
