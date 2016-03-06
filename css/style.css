@@ -3,7 +3,7 @@ body 	{font-family: 'メイリオ',
 		sans-serif;
 		background-color: #edede3;
 		margin: 0;
-        background-image: url(../images/new.png);
+        background-image: url(../images/new2.png);
         background-position: center center;
         background-attachment: fixed;
         background-size: cover;
@@ -273,7 +273,7 @@ a.push  {display: none;}
 
 
 
-@media screen and ( max-width:1050px ) {
+@media screen and ( max-width:900px ) {
 
 
 
@@ -282,7 +282,7 @@ a.push  {display: none;}
 		sans-serif;
 		background-color: #edede3;
 		margin: 0;
-        background-image: url(../images/mobile.png);
+        background-image: url(../images/mobile2.png);
         background-position: center center;
         background-attachment: fixed;
         background-size: cover;
@@ -304,7 +304,7 @@ a.push  {display: none;}
 
 /*スマホ用*/
 
-@media screen and ( max-width:879px ) {
+@media screen and ( max-width:1080px ) {
 
     .all-article    {width: 85%;}
 
@@ -314,7 +314,16 @@ a.push  {display: none;}
 
 
 
+
     /*facebook*/
+
+    article.fb {padding:0px;
+                background-color: rgba(1,1,1,0.0);
+                border: hidden;
+                -webkit-box-shadow: none;
+                box-shadow: none;}
+
+
     .facebook {float: none;
                 clear:both;
                 margin-left: auto;
@@ -322,14 +331,14 @@ a.push  {display: none;}
                 width: 250px;
                 height: 500px;
                 /*border: solid 1px;*/
-                margin-top: 10px;
+                margin-top: 0px;
                 margin-bottom: 0px;
                 z-index: 1;}
     .left-article {width: 80%;
                     float: none;
                     margin-left: auto;
                     margin-right: auto;
-                    /*border: solid 10px;*/
+                    /*border: solid 1px;*/
                     border-color: #ff4500;}
 
     .all-article {/*border: solid 5px;*/
