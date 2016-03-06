@@ -1,6 +1,7 @@
 body 	{font-family: 'メイリオ',
 		'Hiragino Kaku Gothic Pro',
 		sans-serif;
+        font-size: 16px;
 		background-color: #edede3;
 		margin: 0;
         background-image: url(../images/new2.png);
@@ -8,7 +9,14 @@ body 	{font-family: 'メイリオ',
         background-attachment: fixed;
         background-size: cover;
 
-        background-repeat: no-repeat;}
+        background-repeat: no-repeat;
+
+
+        -webkit-text-size-adjust: 100%;
+        -moz-text-size-adjust: 100%;
+         -ms-text-size-adjust: 100%;
+         -o-text-size-adjust: 100%;
+         text-size-adjust: 100%;}
 
 h1 		{margin-top: 0 auto;}
 
