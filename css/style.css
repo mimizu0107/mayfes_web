@@ -229,15 +229,31 @@ figure.maptotodai {margin-left: auto;
 /*facebook対応*/
 /*.fb-pages   {float: right;}*/
 
+
+article.fb {/*?padding:0px;
+            margin-top: 0px;
+            background-color: rgba(1,1,1,0.0);*/
+            /*border: hidden;*/
+            /*-webkit-box-shadow: none;
+            box-shadow: none;
+            padding: 0px;
+            float: right;
+            clear:none;
+            width: 250px;
+            height: 500px;*/
+            display: none;}
+
 .facebook   {float: right;
             width: 25%;
             /*max-width: 250px;*/
-            /*height: 500px;*/
+            height: 500px;
             margin-left: auto;
             margin-right: auto;
             margin-top: 150px;
             z-index: 1;
             /*border: solid 1px;*/}
+
+.facebook-mobile {display: none;}
 
 
 .left-article   {width: 74%;
@@ -245,7 +261,7 @@ figure.maptotodai {margin-left: auto;
                 padding: 0px;
                 /*border: solid 1px;*/}
 
-.all-article    {width: 70%;
+.all-article    {width: 80%;
                 margin-right: auto; 
                 margin-left: auto;
                 overflow: hidden;
@@ -308,6 +324,10 @@ a.push  {display: none;}
 
 @media screen and ( max-width:1080px ) {
 
+
+    .access-article {margin-top: 0px;
+                margin-bottom: 80px;}
+
     .all-article    {width: 85%;}
 
     /*slideshow*/
@@ -323,7 +343,10 @@ a.push  {display: none;}
                 background-color: rgba(1,1,1,0.0);
                 border: hidden;
                 -webkit-box-shadow: none;
-                box-shadow: none;}
+                box-shadow: none;
+                display: block;
+                /*border: solid 1px;*/
+                }
 
 
     .facebook {float: none;
@@ -335,7 +358,24 @@ a.push  {display: none;}
                 /*border: solid 1px;*/
                 margin-top: 0px;
                 margin-bottom: 0px;
-                z-index: 1;}
+                z-index: 1;
+                display:none;}
+
+
+    .facebook-mobile {float: none;
+                clear:both;
+                margin-left: auto;
+                margin-right: auto;
+                width: 250px;
+                height: 500px;
+                /*border: solid 1px;*/
+                margin-top: 0px;
+                margin-bottom: 0px;
+                z-index: 1;
+                display: block;
+                }
+
+
     .left-article {width: 80%;
                     float: none;
                     margin-left: auto;
