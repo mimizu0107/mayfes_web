@@ -330,6 +330,8 @@ a.push  {display: none;}
 
     .all-article    {width: 100%;}
 
+    article {width: 90%;}
+
     /*slideshow*/
 
     .slideshow {display: none;}
