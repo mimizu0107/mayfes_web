@@ -267,6 +267,12 @@ article.fb {/*?padding:0px;
                 overflow: hidden;
                 /*border:solid 1px;*/}
 
+.all-article1    {width: 80%;
+                margin-right: auto; 
+                margin-left: auto;
+                overflow: hidden;
+                /*border:solid 1px;*/}
+
 .ordinary-article   {width:100%;
                     margin-left: auto;
                     margin-right: auto;
@@ -328,9 +334,12 @@ a.push  {display: none;}
     .access-article {margin-top: 0px;
                 margin-bottom: 80px;}
 
-    .all-article    {width: 100%;}
+    .all-article    {width: 90%;
+                    overflow: hidden;}
 
-    article {width: 90%;}
+
+    .ordinary-article {width: 100%;}
+
 
     /*slideshow*/
 
@@ -378,15 +387,13 @@ a.push  {display: none;}
                 }
 
 
-    .left-article {width: 80%;
+    .left-article {width: 100%;
                     float: none;
                     margin-left: auto;
                     margin-right: auto;
                     /*border: solid 1px;*/
                     border-color: #ff4500;}
 
-    .all-article {/*border: solid 5px;*/
-                overflow: hidden;}
 
     /*sticky header*/
 
