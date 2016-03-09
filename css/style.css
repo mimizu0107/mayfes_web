@@ -1,7 +1,7 @@
 body 	{font-family: 'メイリオ',
 		'Hiragino Kaku Gothic Pro',
 		sans-serif;
-        font-size: 16px;
+        /*font-size: 100%;*/
 		background-color: #edede3;
 		margin: 0;
         background-image: url(../images/new2.png);
@@ -11,7 +11,7 @@ body 	{font-family: 'メイリオ',
 
         background-repeat: no-repeat;
 
-
+        
         -webkit-text-size-adjust: 100%;
         -moz-text-size-adjust: 100%;
          -ms-text-size-adjust: 100%;
@@ -44,7 +44,7 @@ article 	{background-color: rgba(249,256,256, 0.95);
 header 	{background-color: rgba(240, 255, 255, 0.5);
 		margin-bottom: 0px;}
 
-footer 	{width:70%;
+footer 	{width:80%;
 		margin-left: auto;
 		margin-right: auto;
 		margin-top: 20px;}
@@ -318,7 +318,13 @@ a.push  {display: none;}
         background-position: center center;
         background-attachment: fixed;
         background-size: cover;
-        background-repeat: no-repeat;}
+        background-repeat: no-repeat;
+
+         -webkit-text-size-adjust: 100%;
+        -moz-text-size-adjust: 100%;
+         -ms-text-size-adjust: 100%;
+         -o-text-size-adjust: 100%;
+         text-size-adjust: 100%;}
 
     .page-header > .inner {
     margin: auto;
@@ -347,6 +353,8 @@ a.push  {display: none;}
 
 
     .ordinary-article {width: 100%;}
+
+    footer {width: 90%;}
 
 
     /*slideshow*/
