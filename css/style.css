@@ -4,12 +4,12 @@ body 	{font-family: 'メイリオ',
         /*font-size: 100%;*/
 		background-color: #edede3;
 		margin: 0;
-        background-image: url(../images/rokkaku2.png);
-        /*background-position: center center;*/
-        /*background-attachment: fixed;*/
-        /*background-size: cover;*/
+        background-image: url(../images/bog.png);
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
 
-        /*background-repeat: no-repeat;*/
+        background-repeat: no-repeat;
 
         
         -webkit-text-size-adjust: 100%;
