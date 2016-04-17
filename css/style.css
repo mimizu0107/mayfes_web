@@ -45,10 +45,14 @@ article 	{background-color: rgba(249,256,256, 0.05);
 header 	{background-color: rgba(240, 255, 255, 0.5);
 		margin-bottom: 0px;}
 
+a       {color: rgb(244, 164, 96);}
+a:hover {color: rgb(255, 165, 0);}
+
 footer 	{width:80%;
 		margin-left: auto;
 		margin-right: auto;
-		margin-top: 20px;}
+		margin-top: 20px;
+        color: rgb(255, 255, 255);}
 
 ul { padding-left: 0; 
     margin: 0;
