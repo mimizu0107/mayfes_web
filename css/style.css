@@ -77,6 +77,17 @@ figure.maptotodai {margin-left: auto;
 .maptotodai img {width: 100%;
                 text-align: center;}
 
+/*写真関連*/
+#sample {
+/*border: solid 1px;*/
+text-align: center;
+margin: auto;
+}
+
+#sample img {margin: 10px;
+            max-width: 400px;
+            max-height: 256px;}
+
 
 /*SlideShow*/
 
