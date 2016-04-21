@@ -49,7 +49,7 @@ a       {color: rgb(244, 164, 96);}
 a:hover {color: rgb(255, 165, 0);}
 
 .bar {color: rgb(204, 255, 255);
-        height: 70px;
+        height: 95px;
         font-size:18px;
         font-weight: 600;
         text-shadow:0px 0px 3px #00CCFF,
@@ -64,8 +64,8 @@ a:hover {color: rgb(255, 165, 0);}
 a:hover .bar {color: rgba(204, 255, 255, 1.0);
                 font-size:18px;
                 font-weight: 600;
-                height: 70px;
-                /*border: solid 1px;*/
+                height: 95px;
+                /*border: solid 3px;*/
                 text-shadow:0px 0px 3px #FF6600,
                             0px 0px 5px #FF6600,
                             0px 0px 7px #FF6600,
@@ -74,7 +74,7 @@ a:hover .bar {color: rgba(204, 255, 255, 1.0);
 .this-page .bar {color: rgba(204, 255, 255, 1.0);
                 font-size:18px;
                 font-weight: 600;
-                height: 70px;
+                height: 95px;
                 /*border: solid 1px;*/
                 text-shadow:0px 0px 3px #FF6600,
                             0px 0px 5px #FF6600,
