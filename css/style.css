@@ -69,8 +69,8 @@ header 	{background-color: rgba(240, 255, 255, 0.5);
 		margin-bottom: 0px;}
 
 a       {color: rgb(244, 164, 96);}
-a:hover {color: rgb(255, 165, 0);
-        /*text-decoration: none;*/}
+a:hover {color: rgb(255, 255, 0);
+        text-decoration: none;}
 
 .bar {color: rgb(204, 255, 255);
         height: 95px;
