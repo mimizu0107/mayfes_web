@@ -384,13 +384,13 @@ figure:hover figcaption.title {
     margin-left: -45px;
     margin-bottom: 20px;
     margin-top: 0px;
-    border: solid 2px;
-    border-color: rgb(255, 0, 0);
+    /*border: solid 2px;
+    border-color: rgb(255, 0, 0);*/
 }
 
 div.moji {
-        border: solid 1px;
-        border-color: rgb(255, 0, 255);
+        /*border: solid 1px;
+        border-color: rgb(255, 0, 255);*/
         float: right;
         height: 100px;
         text-shadow:0px 0px 3px #00CCFF,
@@ -460,8 +460,8 @@ h1.site-logo:hover img.neon {background-image:url(../images/neon2.png)}
 
 img.neon {max-width: 80;
         max-height: 80;
-        border: solid 1px;
-        border-color: rgb(0, 0, 255);
+        /*border: solid 1px;
+        border-color: rgb(0, 0, 255);*/
         margin-top: 10px;}
 
 /* Primary nav */
