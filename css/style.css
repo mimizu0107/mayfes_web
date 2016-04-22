@@ -69,7 +69,8 @@ header 	{background-color: rgba(240, 255, 255, 0.5);
 		margin-bottom: 0px;}
 
 a       {color: rgb(244, 164, 96);}
-a:hover {color: rgb(255, 165, 0);}
+a:hover {color: rgb(255, 165, 0);
+        /*text-decoration: none;*/}
 
 .bar {color: rgb(204, 255, 255);
         height: 95px;
@@ -384,14 +385,14 @@ figure:hover figcaption.title {
     margin-left: -45px;
     margin-bottom: 20px;
     margin-top: 0px;
-    border: solid 2px;
-    border-color: rgb(255, 0, 0);
+    /*border: solid 2px;
+    border-color: rgb(255, 0, 0);*/
 }
 
 div.moji {
         text-decoration: none;
-        border: solid 1px;
-        border-color: rgb(255, 0, 255);
+        /*border: solid 1px;
+        border-color: rgb(255, 0, 255);*/
         float: right;
         height: 100px;
         text-shadow:0px 0px 3px #00CCFF,
@@ -434,7 +435,9 @@ div.kinmirai {
                     0px 0px 17px #00CCFF; */ 
 }
 
-h1.site-logo:hover div.moji  /*div.tokyo*/  {text-shadow:0px 0px 3px #00CCFF,
+h1.site-logo:hover div.moji  /*div.tokyo*/  {
+                    text-decoration: none;
+                    text-shadow:0px 0px 3px #00CCFF,
                     0px 0px 5px #00CCFF,
                     0px 0px 7px #00CCFF,
                     0px 0px 11px #00CCFF,
@@ -463,8 +466,8 @@ h1.site-logo:hover img.neon {background-image:url(../images/neon2.png)}
 
 img.neon {max-width: 80;
         max-height: 80;
-        border: solid 1px;
-        border-color: rgb(0, 0, 255);
+        /*border: solid 1px;
+        border-color: rgb(0, 0, 255);*/
         margin-top: 10px;}
 
 /* Primary nav */
@@ -875,7 +878,7 @@ a.push    {/*border: solid 1px;*/
 
     div.kinmirai {font-size: 29px;}
 
-    .site-logo {width: 320px;}
+    .site-logo {width: 315px;}
 
     div.tokyo {margin-bottom: 13px;
                 margin-top: 20px;}
