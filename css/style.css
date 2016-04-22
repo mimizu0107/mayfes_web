@@ -37,10 +37,10 @@ article 	{background-color: rgba(10,10,10, 0.85);
 			opacity: 1.0;
             color: rgb(255, 255, 255);}
 
-.first-article {margin-top: 150px;}
+.first-article {margin-top: 130px;}
 
 .access-article {margin-top: 0px;
-                margin-bottom: 70px;}
+                margin-bottom: 50px;}
 
 header 	{background-color: rgba(240, 255, 255, 0.5);
 		margin-bottom: 0px;}
@@ -527,7 +527,9 @@ a.push  {display: none;}
 
 
     .access-article {margin-top: 0px;
-                margin-bottom: 80px;}
+                margin-bottom: 100px;}
+
+    .first-article {margin-top: 170px;}
 
     .all-article    {width: 90%;
                     overflow: hidden;}
