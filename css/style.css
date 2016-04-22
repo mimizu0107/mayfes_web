@@ -371,7 +371,7 @@ figure:hover figcaption.title {
 .page-header > .inner {
     margin: auto;
     /*width: 960px;*/
-    width: 80%;
+    width: 90%;
 }
 
 .no-boxshadow .page-header {
@@ -381,18 +381,24 @@ figure:hover figcaption.title {
 /* Logo */
 .site-logo {
     float: left;
-    margin-left: -100px;
+    margin-left: -45px;
     margin-bottom: 20px;
     margin-top: 0px;
-    /*border: solid 2px;*/
-    /*border-color: rgb(255, 0, 0);*/
+    border: solid 2px;
+    border-color: rgb(255, 0, 0);
 }
 
 div.moji {
-        /*border: solid 1px;
-        border-color: rgb(255, 0, 255);*/
+        border: solid 1px;
+        border-color: rgb(255, 0, 255);
         float: right;
         height: 100px;
+        text-shadow:0px 0px 3px #00CCFF,
+                    0px 0px 5px #00CCFF,
+                    0px 0px 7px #00CCFF,
+                    0px 0px 11px #00CCFF,
+                    0px 0px 15px #00CCFF,
+                    0px 0px 17px #00CCFF; 
 }
 
 div.tokyo { color: rgb(204, 255, 255);
@@ -402,12 +408,12 @@ div.tokyo { color: rgb(204, 255, 255);
             padding: 0;
             /*border: solid 1px;
             border-color: rgb(255, 255, 0);*/
-            text-shadow:0px 0px 3px #00CCFF,
+            /*text-shadow:0px 0px 3px #00CCFF,
                     0px 0px 5px #00CCFF,
                     0px 0px 7px #00CCFF,
                     0px 0px 11px #00CCFF,
                     0px 0px 15px #00CCFF,
-                    0px 0px 17px #00CCFF; 
+                    0px 0px 17px #00CCFF; */
             }
 
 div.kinmirai {
@@ -417,15 +423,15 @@ div.kinmirai {
             padding: 100;
             /*border: solid 1px;
             border-color: rgb(255, 255, 0);*/
-            text-shadow:0px 0px 3px #00CCFF,
+            /*text-shadow:0px 0px 3px #00CCFF,
                     0px 0px 5px #00CCFF,
                     0px 0px 7px #00CCFF,
                     0px 0px 11px #00CCFF,
                     0px 0px 15px #00CCFF,
-                    0px 0px 17px #00CCFF;  
+                    0px 0px 17px #00CCFF; */ 
 }
 
-div.moji:hover div.tokyo  {text-shadow:0px 0px 3px #00CCFF,
+h1.site-logo:hover div.moji  /*div.tokyo*/  {text-shadow:0px 0px 3px #00CCFF,
                     0px 0px 5px #00CCFF,
                     0px 0px 7px #00CCFF,
                     0px 0px 11px #00CCFF,
@@ -438,7 +444,9 @@ div.moji:hover div.tokyo  {text-shadow:0px 0px 3px #00CCFF,
                     0px 0px 17px #00CCFF;  
 }
 
-div.moji:hover div.kinmirai {text-shadow:0px 0px 3px #00CCFF,
+h1.site-logo:hover img.neon {background-image:url(../images/neon2.png)}
+
+/*div.moji:hover  div.kinmirai {text-shadow:0px 0px 3px #00CCFF,
                     0px 0px 5px #00CCFF,
                     0px 0px 7px #00CCFF,
                     0px 0px 11px #00CCFF,
@@ -448,10 +456,12 @@ div.moji:hover div.kinmirai {text-shadow:0px 0px 3px #00CCFF,
                     0px 0px 7px #00CCFF,
                     0px 0px 11px #00CCFF,
                     0px 0px 15px #00CCFF,
-                    0px 0px 17px #00CCFF; }
+                    0px 0px 17px #00CCFF; }*/
 
-img.neon {width: 80;
-        height: 80;
+img.neon {max-width: 80;
+        max-height: 80;
+        border: solid 1px;
+        border-color: rgb(0, 0, 255);
         margin-top: 10px;}
 
 /* Primary nav */
@@ -712,6 +722,7 @@ a.push  {display: none;}
     border-color: rgb(0, 0, 255);*/
 }
 
+
 div.moji {margin-right: auto;
         /*float: none;*/
         /*border: solid 1px;
@@ -851,6 +862,24 @@ a.push    {/*border: solid 1px;*/
             background-color: rgb(0,0,0, 0.8);
             /*border: solid 1px;*/
             display: block;}
+
+
+}
+
+@media screen and ( max-width:500px ) {
+
+    div.tokyo {font-size: 11px;}
+
+    div.kinmirai {font-size: 29px;}
+
+    .site-logo {width: 320px;}
+
+    div.tokyo {margin-bottom: 13px;
+                margin-top: 5px;}
+
+    div.kinmirai {}
+
+
 
 
 }
