@@ -962,6 +962,13 @@ a.push    {/*border: solid 1px;*/
 
 }
 
+@media screen and ( max-width:350px ) {
+    figcaption.sent p.big {
+    font-size: 9px;
+    margin-top: 3px;}
+
+}
+
 
 
 
