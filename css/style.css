@@ -141,9 +141,12 @@ p.clear {clear: left;
 figure.maptotodai {margin-left: auto;
                     margin-right: auto;
                     text-align: center;
-                    width: 80%;}
+                    width: 80%;
+                    max-height: auto;}
 .maptotodai img {width: 100%;
-                text-align: center;}
+                text-align: center;
+                height: auto;
+                max-height: auto;}
 
 /*写真関連*/
 #sample {
@@ -194,7 +197,7 @@ li.exh1 {
     display: inline-block;
 }
 
-figure {
+figure.pl {
     margin: auto;
     text-align: center;
     position: relative;
@@ -211,7 +214,7 @@ figure {
     border-color: rgb(0, 255, 0);*/
 }
 
-figure img {
+figure.pl img {
     width: 100%;
     height: auto;
     max-height: 200px;
