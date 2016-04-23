@@ -166,6 +166,7 @@ li.exh {
     text-align: center;
     background: #CCC;
     max-width: 95%;
+    max-height: 200px;
     height: auto;
     padding: 0px;
     margin: 10px;
