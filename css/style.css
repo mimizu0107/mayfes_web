@@ -170,8 +170,8 @@ li.exh {
     height: auto;
     padding: 0px;
     margin: 10px;
-    border: solid 5px;
-    border-color: rgb(0, 0, 255);
+    /*border: solid 5px;
+    border-color: rgb(0, 0, 255);*/
 }
 
 li.exh:before{
@@ -207,8 +207,8 @@ figure {
     left: 0;
     bottom: 0;
     right: 0;
-    border: solid 5px;
-    border-color: rgb(0, 255, 0);
+    /*border: solid 5px;
+    border-color: rgb(0, 255, 0);*/
 }
 
 figure img {
