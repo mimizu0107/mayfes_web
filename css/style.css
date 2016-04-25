@@ -572,7 +572,7 @@ article.fb {/*?padding:0px;
             /*max-width: 250px;*/
             z-index: 1;}
 
-iframe.yt {width: 100%;
+iframe.yt {/*width: 100%;*/
             height: 100%;
             max-width: 250px;
         	/*float: left;*/}
