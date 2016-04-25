@@ -554,8 +554,8 @@ article.fb {/*?padding:0px;
             margin-right: auto;
             /*margin-top: 150px;*/
             z-index: 1;
-            /*border: solid 1px;
-            border-color: rgb(255, 0, 0);*/
+            border: solid 1px;
+            border-color: rgb(255, 0, 0);
         	/*overflow: hidden;*/}
 
 .facebook-mobile {display: none;}
@@ -575,7 +575,7 @@ article.fb {/*?padding:0px;
 iframe.yt {width: 100%;
             height: 100%;
             max-width: 250px;
-        	float: left;}
+        	/*float: left;*/}
 
 .pv {display: none;}
 
@@ -583,6 +583,7 @@ iframe.yt {width: 100%;
 .left-article   {width: 74%;
                 float: left;
                 padding: 0px;
+                /*overflow: hidden;*/
                 /*border: solid 1px;*/}
 
 .all-article    {width: 75%;
