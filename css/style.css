@@ -552,11 +552,28 @@ article.fb {/*?padding:0px;
             height: 500px;
             margin-left: auto;
             margin-right: auto;
-            margin-top: 150px;
+            /*margin-top: 150px;*/
             z-index: 1;
-            /*border: solid 1px;*/}
+            /*border: solid 1px;
+            border-color: rgb(255, 0, 0);*/}
 
 .facebook-mobile {display: none;}
+
+
+/*youtube*/
+
+.youtube   {float: right;
+            width: 25%;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 135px;
+            z-index: 1;}
+
+iframe.yt {width: 100%;
+            height: 100%;}
+
+.pv {display: none;}
 
 
 .left-article   {width: 74%;
@@ -670,7 +687,8 @@ a.push  {display: none;}
                 box-shadow: none;
                 display: block;
                 width: 100%;
-                /*border: solid 1px;*/
+                /*border: solid 1px;
+                border-color: rgb(255, 0, 0);*/
                 }
 
 
@@ -706,7 +724,41 @@ a.push  {display: none;}
                     margin-left: auto;
                     margin-right: auto;
                     /*border: solid 1px;*/
-                    border-color: #ff4500;}
+                    /*border-color: #ff4500;*/}
+
+
+    /*youtube*/
+
+    .youtube {display: none;}
+
+    article.pv {padding:0px;
+                background-color: rgba(1,1,1,0.0);
+                border: hidden;
+                -webkit-box-shadow: none;
+                box-shadow: none;
+                display: block;
+                width: 100%;
+                height: auto;
+                /*border: solid 1px;
+                border-color: rgb(255, 0, 0);*/
+                }
+
+    .youtube-mobile {float: none;
+                clear:both;
+                margin-left: auto;
+                margin-right: auto;
+                max-width: 560px;
+                width: 100%;
+                height: 100%;
+                /*border: solid 1px;*/
+                margin-top: 0px;
+                margin-bottom: 0px;
+                z-index: 1;
+                display: block;
+                }
+
+    iframe.yt {width: 100%;
+            height: 100%;}
 
 
     /*sticky header*/
