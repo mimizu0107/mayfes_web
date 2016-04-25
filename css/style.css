@@ -568,6 +568,7 @@ article.fb {/*?padding:0px;
             margin-left: auto;
             margin-right: auto;
             margin-top: 135px;
+            max-width: 250px;
             z-index: 1;}
 
 iframe.yt {width: 100%;
