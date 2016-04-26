@@ -568,7 +568,7 @@ article.fb {/*?padding:0px;
             height: auto;
             margin-left: auto;
             margin-right: auto;
-            margin-top: 135px;
+            margin-top: 130px;
             margin-bottom: 5px;
             /*max-width: 250px;*/
             z-index: 1;
@@ -577,7 +577,7 @@ article.fb {/*?padding:0px;
 
 iframe.yt {width: 100%;
             height: 100%;
-            max-width: 250px;
+            max-width: 240px;
         	/*float: left;*/
             padding-left: 0px;
             padding-bottom: 0px;
