@@ -241,11 +241,13 @@ figcaption.sent p {
     width: 100%;
     -webkit-transition: .3s;
     transition: .3s;
+    text-align: justify;
     /*border: solid 1px;*/
     /*margin-top: 0px;*/
 }
 figcaption.sent h3 {
     top: 5px;
+    margin-bottom: 0px;
 }
 figcaption.sent p {
     font-size: 13px;
