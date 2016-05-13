@@ -704,6 +704,7 @@ a.push  {display: none;}
                 box-shadow: none;
                 display: block;
                 width: 100%;
+                display: none;
                 /*border: solid 1px;
                 border-color: rgb(255, 0, 0);*/
                 }
