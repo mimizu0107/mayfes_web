@@ -639,8 +639,11 @@ a.push  {display: none;}
 		sans-serif;
 		background-color: #edede3;
 		margin: 0;
-        /*background-image: url(../images/mobile2.png);*/
-        background-position: center center;
+        background-image: url(../images/rokkaku.png);
+        background-repeat:repeat;            
+        background-position:left;
+        background-size:auto;
+        /*background-position: center center;
         background-attachment: fixed;
         background-size: cover;
         background-repeat: no-repeat;
@@ -649,7 +652,7 @@ a.push  {display: none;}
         -moz-text-size-adjust: 100%;
          -ms-text-size-adjust: 100%;
          -o-text-size-adjust: 100%;
-         text-size-adjust: 100%;}
+         text-size-adjust: 100%;*/}
 
     .page-header > .inner {
     margin: auto;
