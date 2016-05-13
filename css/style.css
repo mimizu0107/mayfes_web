@@ -679,6 +679,7 @@ a.push  {display: none;}
     .first-article {margin-top: 170px;}
 
     .all-article    {width: 90%;
+                    max-width: 900px;
                     overflow: hidden;}
 
 
